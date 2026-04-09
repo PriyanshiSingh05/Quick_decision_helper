@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quick Decision Helper</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Quick Decision Helper</h1>
+
+        <div class="inputs">
+            <input type="text" id="option1" placeholder="Option 1">
+            <input type="text" id="option2" placeholder="Option 2">
+            <input type="text" id="option3" placeholder="Option 3">
+        </div>
+
+        <h3>Criteria (1-10)</h3>
+
+        <div class="criteria">
+            <label>Cost:</label>
+            <input type="number" id="cost1" placeholder="₹ Cost">
+            <input type="number" id="cost2" placeholder="₹ Cost">
+            <input type="number" id="cost3" placeholder="₹ Cost">
+           
+
+            <label>Time:</label>
+            <input type="number" id="time1" placeholder="Minutes">
+            <input type="number" id="time2" placeholder="Minutes">
+            <input type="number" id="time3" placeholder="Minutes">
+            
+            <label>Preference:</label>
+            <input type="number" id="pref1" placeholder="1-10">
+            <input type="number" id="pref2" placeholder="1-10">
+            <input type="number" id="pref3" placeholder="1-10">
+            
+
+        <button onclick="calculate()">Get Best Option</button>
+
+        <h2 id="result"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
